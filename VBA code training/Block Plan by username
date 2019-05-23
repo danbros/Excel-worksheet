@@ -8,18 +8,18 @@
 
 Private Sub Worksheet_Activate()
 
-'desativa atualização de tela
-Application.ScreenUpdating = False
-    
-    'Se username atual(em maiusculo por causa do Ucase) for diferente de "USER OK" então...
-    If UCase(Environ("username")) <> "USER OK" Then
-    
-        Sheets("Planilha1").Activate
-        MsgBox "Seu usuário não tem permissão de abrir essa plan", vbOKOnly, "Atenção"
-                
-    End If
-    
-'ativa atualização de tela
-Application.ScreenUpdating = True
+	'desativa atualização de tela
+	Application.ScreenUpdating = False
+	    
+	    'Se username atual(em maiusculo por causa do Ucase) for diferente de "USER OK" então...
+	    If UCase(Environ("username")) <> "USER OK" Then
+	    
+	        Sheets("Planilha1").Activate
+	        MsgBox "Seu usuário não tem permissão de abrir essa plan", vbOKOnly, "Atenção"
+	                
+	    End If
+	    
+	'ativa atualização de tela
+	Application.ScreenUpdating = True
 
 End Sub

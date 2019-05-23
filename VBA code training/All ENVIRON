@@ -3,7 +3,22 @@
 '
 'https://github.com/danbros/Excel-worksheet
 '
-'AULA 23 Mostra todas as variáveis de ambiente
+'AULA 23 Imprime todas as variáveis de ambiente
 'Sub em botão de comando (ActiveX)
+
+Private Sub btENV_Click ()
+	
+	Dim WS 		As Worksheet
+	Dim Count	As Integer
+
+	Set WS = Sheets("Plan 1")
+
+	For Count = 1 To 100
+
+		WS.Cells(Count, 1).Value = Environ$(Count)
+
+	Next
+
+End Sub
 
 
