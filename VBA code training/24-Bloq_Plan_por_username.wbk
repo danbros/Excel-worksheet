@@ -3,7 +3,7 @@
 '
 'https://github.com/danbros/Excel-worksheet
 '
-'AULA AULA 24 Bloquear acesso a uma plan
+'AULA 24 Bloquear acesso a uma plan
 'Sub na plan selecionada ao inserir sub abaixo
 
 Private Sub Worksheet_Activate()
