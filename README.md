@@ -1,6 +1,7 @@
 # Planilhas
 
-This is a repo for my random worksheets.<br/>
+### Um repo para planilhas aleatórias.<br/>
+
 
 * **Marketplace Jo.xlsm**
     * Controle interno de um mercado ([subs usadas](/VBA_subs/Marketplace%20Jo.vba)).
